@@ -1,5 +1,5 @@
 # TDGPortal
-Build TDG Portal for my company
+Build TDG Portal for my project
 # Home Page:
 ![Home Page](https://github.com/hoangnc/TDGPortal/blob/main/HomePage.PNG?raw=true "Home Page")
 # Modules:
