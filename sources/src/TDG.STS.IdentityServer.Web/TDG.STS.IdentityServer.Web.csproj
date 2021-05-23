@@ -43,10 +43,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\themes\Abp.AspNetCore.Mvc.UI.Theme.AdminLTE\Abp.AspNetCore.Mvc.UI.Theme.AdminLTE.csproj" />
-    <ProjectReference Include="..\..\modules\DocumentManagement\src\DocumentManagement.HttpApi\DocumentManagement.HttpApi.csproj" />
-    <ProjectReference Include="..\..\modules\DocumentManagement\src\DocumentManagement.Web\DocumentManagement.Web.csproj" />
-    <ProjectReference Include="..\..\modules\MasterData\src\MasterData.HttpApi.Client\MasterData.HttpApi.Client.csproj" />
-    <ProjectReference Include="..\..\modules\MasterData\src\MasterData.Web\MasterData.Web.csproj" />
+    <ProjectReference Include="..\..\modules\document-management\src\DocumentManagement.HttpApi\DocumentManagement.HttpApi.csproj" />
+    <ProjectReference Include="..\..\modules\document-management\src\DocumentManagement.Web\DocumentManagement.Web.csproj" />
+    <ProjectReference Include="..\..\modules\master-data\src\MasterData.HttpApi.Client\MasterData.HttpApi.Client.csproj" />
+    <ProjectReference Include="..\..\modules\master-data\src\MasterData.Web\MasterData.Web.csproj" />
     <ProjectReference Include="..\TDG.STS.IdentityServer.Application\TDG.STS.IdentityServer.Application.csproj" />
     <ProjectReference Include="..\TDG.STS.IdentityServer.HttpApi\TDG.STS.IdentityServer.HttpApi.csproj" />
     <ProjectReference Include="..\TDG.STS.IdentityServer.EntityFrameworkCore.DbMigrations\TDG.STS.IdentityServer.EntityFrameworkCore.DbMigrations.csproj" />

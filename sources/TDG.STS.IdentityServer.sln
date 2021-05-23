@@ -45,47 +45,47 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.AspNetCore.Mvc.UI.Theme
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{6923BF7B-A3B2-41B5-825C-0D395053E50C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentManagement", "DocumentManagement", "{2B8DAAEF-D9E6-4AE2-9C84-B3F534293C1B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "document-management", "document-management", "{2B8DAAEF-D9E6-4AE2-9C84-B3F534293C1B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.Web", "modules\DocumentManagement\src\DocumentManagement.Web\DocumentManagement.Web.csproj", "{A7C03D9C-97B1-4EA0-BDD0-88C434B7553E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.Web", "modules\document-management\src\DocumentManagement.Web\DocumentManagement.Web.csproj", "{A7C03D9C-97B1-4EA0-BDD0-88C434B7553E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.MongoDB", "modules\DocumentManagement\src\DocumentManagement.MongoDB\DocumentManagement.MongoDB.csproj", "{81F3F0F8-1449-4E27-A359-4A38672F1E4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.MongoDB", "modules\document-management\src\DocumentManagement.MongoDB\DocumentManagement.MongoDB.csproj", "{81F3F0F8-1449-4E27-A359-4A38672F1E4F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.HttpApi.Client", "modules\DocumentManagement\src\DocumentManagement.HttpApi.Client\DocumentManagement.HttpApi.Client.csproj", "{C8485EB6-C7BC-4CD4-89FF-7B9A80929A60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.HttpApi.Client", "modules\document-management\src\DocumentManagement.HttpApi.Client\DocumentManagement.HttpApi.Client.csproj", "{C8485EB6-C7BC-4CD4-89FF-7B9A80929A60}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.HttpApi", "modules\DocumentManagement\src\DocumentManagement.HttpApi\DocumentManagement.HttpApi.csproj", "{CC652125-8309-48C4-9A1A-8D9619EAD1E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.HttpApi", "modules\document-management\src\DocumentManagement.HttpApi\DocumentManagement.HttpApi.csproj", "{CC652125-8309-48C4-9A1A-8D9619EAD1E4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.EntityFrameworkCore", "modules\DocumentManagement\src\DocumentManagement.EntityFrameworkCore\DocumentManagement.EntityFrameworkCore.csproj", "{0C38909B-665D-4B46-82DF-836A576B2D76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.EntityFrameworkCore", "modules\document-management\src\DocumentManagement.EntityFrameworkCore\DocumentManagement.EntityFrameworkCore.csproj", "{0C38909B-665D-4B46-82DF-836A576B2D76}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.Domain.Shared", "modules\DocumentManagement\src\DocumentManagement.Domain.Shared\DocumentManagement.Domain.Shared.csproj", "{DA3C7EC8-EA59-4CC7-A3D5-EB1E441A08DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.Domain.Shared", "modules\document-management\src\DocumentManagement.Domain.Shared\DocumentManagement.Domain.Shared.csproj", "{DA3C7EC8-EA59-4CC7-A3D5-EB1E441A08DF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.Domain", "modules\DocumentManagement\src\DocumentManagement.Domain\DocumentManagement.Domain.csproj", "{3CE569B7-8F5C-409F-90A4-EE0C88886C88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.Domain", "modules\document-management\src\DocumentManagement.Domain\DocumentManagement.Domain.csproj", "{3CE569B7-8F5C-409F-90A4-EE0C88886C88}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.Application.Contracts", "modules\DocumentManagement\src\DocumentManagement.Application.Contracts\DocumentManagement.Application.Contracts.csproj", "{C1AAC36C-ED46-48D1-8A38-57AD75B9D8B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.Application.Contracts", "modules\document-management\src\DocumentManagement.Application.Contracts\DocumentManagement.Application.Contracts.csproj", "{C1AAC36C-ED46-48D1-8A38-57AD75B9D8B4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.Application", "modules\DocumentManagement\src\DocumentManagement.Application\DocumentManagement.Application.csproj", "{17A1109A-1506-4DE6-AE84-032D93C48915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentManagement.Application", "modules\document-management\src\DocumentManagement.Application\DocumentManagement.Application.csproj", "{17A1109A-1506-4DE6-AE84-032D93C48915}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MasterData", "MasterData", "{1CB39AF2-6803-4214-A93A-EFFDA6BED3F2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "master-data", "master-data", "{1CB39AF2-6803-4214-A93A-EFFDA6BED3F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Application", "modules\MasterData\src\MasterData.Application\MasterData.Application.csproj", "{09F2FFA0-D6AA-49FF-997A-5D9414A7C0EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Application", "modules\master-data\src\MasterData.Application\MasterData.Application.csproj", "{09F2FFA0-D6AA-49FF-997A-5D9414A7C0EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Application.Contracts", "modules\MasterData\src\MasterData.Application.Contracts\MasterData.Application.Contracts.csproj", "{D510C43F-A26E-44F8-B256-FF5DE312692B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Application.Contracts", "modules\master-data\src\MasterData.Application.Contracts\MasterData.Application.Contracts.csproj", "{D510C43F-A26E-44F8-B256-FF5DE312692B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Blazor", "modules\MasterData\src\MasterData.Blazor\MasterData.Blazor.csproj", "{CB8F48E2-03C9-4FA8-BEA8-97A29DA06AED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Blazor", "modules\master-data\src\MasterData.Blazor\MasterData.Blazor.csproj", "{CB8F48E2-03C9-4FA8-BEA8-97A29DA06AED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Domain", "modules\MasterData\src\MasterData.Domain\MasterData.Domain.csproj", "{0A59527B-0593-419B-AC90-9735624C888D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Domain", "modules\master-data\src\MasterData.Domain\MasterData.Domain.csproj", "{0A59527B-0593-419B-AC90-9735624C888D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Domain.Shared", "modules\MasterData\src\MasterData.Domain.Shared\MasterData.Domain.Shared.csproj", "{6861CAC6-1952-465A-9C2A-8FCE89C7683F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Domain.Shared", "modules\master-data\src\MasterData.Domain.Shared\MasterData.Domain.Shared.csproj", "{6861CAC6-1952-465A-9C2A-8FCE89C7683F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.EntityFrameworkCore", "modules\MasterData\src\MasterData.EntityFrameworkCore\MasterData.EntityFrameworkCore.csproj", "{425DCD5E-D8E4-4A7B-95F9-9ABA3E3B2D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.EntityFrameworkCore", "modules\master-data\src\MasterData.EntityFrameworkCore\MasterData.EntityFrameworkCore.csproj", "{425DCD5E-D8E4-4A7B-95F9-9ABA3E3B2D87}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.HttpApi", "modules\MasterData\src\MasterData.HttpApi\MasterData.HttpApi.csproj", "{4D0D106D-B324-4EBB-84AD-BC84E1DB2C79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.HttpApi", "modules\master-data\src\MasterData.HttpApi\MasterData.HttpApi.csproj", "{4D0D106D-B324-4EBB-84AD-BC84E1DB2C79}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.HttpApi.Client", "modules\MasterData\src\MasterData.HttpApi.Client\MasterData.HttpApi.Client.csproj", "{0924EADD-35DA-41DF-B1FB-FCD526FE25CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.HttpApi.Client", "modules\master-data\src\MasterData.HttpApi.Client\MasterData.HttpApi.Client.csproj", "{0924EADD-35DA-41DF-B1FB-FCD526FE25CC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.MongoDB", "modules\MasterData\src\MasterData.MongoDB\MasterData.MongoDB.csproj", "{23FADC11-77C2-47A2-82F4-6C71847A4D36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.MongoDB", "modules\master-data\src\MasterData.MongoDB\MasterData.MongoDB.csproj", "{23FADC11-77C2-47A2-82F4-6C71847A4D36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Web", "modules\MasterData\src\MasterData.Web\MasterData.Web.csproj", "{ADF785A8-1E99-40AA-ADA2-D6F3741603F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterData.Web", "modules\master-data\src\MasterData.Web\MasterData.Web.csproj", "{ADF785A8-1E99-40AA-ADA2-D6F3741603F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

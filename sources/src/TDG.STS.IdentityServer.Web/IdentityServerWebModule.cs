@@ -55,10 +55,10 @@ namespace TDG.STS.IdentityServer.Web
         typeof(AbpAutofacModule),
         typeof(AbpIdentityWebModule),
         typeof(AbpAccountWebIdentityServerModule),
-         typeof(MasterDataHttpApiClientModule),
+        typeof(MasterDataHttpApiClientModule),
         typeof(MasterDataWebModule),
         typeof(AbpAspNetCoreMvcUiAdminLTEThemeModule),
-        // typeof(AbpAspNetCoreMvcUiBasicThemeModule),
+        //typeof(AbpAspNetCoreMvcUiBasicThemeModule),
         typeof(AbpAspNetCoreAuthenticationJwtBearerModule),
         typeof(AbpTenantManagementWebModule),
         typeof(AbpSettingManagementWebModule),
@@ -98,10 +98,10 @@ namespace TDG.STS.IdentityServer.Web
             ConfigureAutoApiControllers();
             ConfigureSwaggerServices(context.Services);
             ConfigureAuditLog();
-            ConfigEmailSender();
+            ConfigureEmailSender();
         }
 
-        private void ConfigEmailSender()
+        private void ConfigureEmailSender()
         {
             Configure<AbpMailKitOptions>(options =>
             {
@@ -162,7 +162,7 @@ namespace TDG.STS.IdentityServer.Web
                     options.FileSets.ReplaceEmbeddedByPhysical<IdentityServerApplicationModule>(Path.Combine(hostingEnvironment.ContentRootPath, $"..{Path.DirectorySeparatorChar}TDG.STS.IdentityServer.Application"));
                     options.FileSets.ReplaceEmbeddedByPhysical<IdentityServerWebModule>(hostingEnvironment.ContentRootPath);
 
-                    options.FileSets.ReplaceEmbeddedByPhysical<DocumentManagementWebModule>(Path.Combine(hostingEnvironment.ContentRootPath, $"..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}modules{Path.DirectorySeparatorChar}DocumentManagement{Path.DirectorySeparatorChar}src{Path.DirectorySeparatorChar}DocumentManagement.Web"));
+                    options.FileSets.ReplaceEmbeddedByPhysical<DocumentManagementWebModule>(Path.Combine(hostingEnvironment.ContentRootPath, $"..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}modules{Path.DirectorySeparatorChar}document-management{Path.DirectorySeparatorChar}src{Path.DirectorySeparatorChar}DocumentManagement.Web"));
                     options.FileSets.ReplaceEmbeddedByPhysical<AbpAspNetCoreMvcUiAdminLTEThemeModule>(Path.Combine(hostingEnvironment.ContentRootPath, $"..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}themes{Path.DirectorySeparatorChar}Abp.AspNetCore.Mvc.UI.Theme.AdminLTE"));
                 });
             }
