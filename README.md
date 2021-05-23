@@ -1,5 +1,7 @@
 # TDGPortal
 Build TDG Portal for my project
+# Login Page:
+![Login Page](https://github.com/hoangnc/TDGPortal/blob/main/Login.PNG?raw=true "Login Page")
 # Home Page:
 ![Home Page](https://github.com/hoangnc/TDGPortal/blob/main/HomePage.PNG?raw=true "Home Page")
 # Modules:
